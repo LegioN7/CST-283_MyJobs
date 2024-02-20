@@ -1,6 +1,7 @@
 // CST-283
 // Aaron Pelto
 // Winter 2024
+
 public class MyJobs {
     public static void main(String[] args) {
         PaintJob livingRoomPainting = new PaintJob("Kitchen Painting", 2, 800);

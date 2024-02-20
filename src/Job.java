@@ -1,6 +1,6 @@
-public class Job {
-    protected int priority;         // 1, 2, or 3
-    protected String description;
+public abstract class Job {
+    int priority;         // 1, 2, or 3
+    String description;
 
     Job() {
         priority = 0;
@@ -31,5 +31,10 @@ public class Job {
     public String toString() {
         return "Job: " + description + ", Priority: " + priority;
     }
+
+    // Empty Abstract Method Calls
+    public abstract double calcCost();
+
+    public abstract double calcTime();
 }
 
